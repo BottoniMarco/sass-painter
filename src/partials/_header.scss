@@ -1,0 +1,70 @@
+header {
+  height: $headerHeight;
+  background-color: $backgroundHeader
+}
+
+.header-top {
+  background-color: $backgroundHeader;
+  height: $headerTopHeight;
+  ul {
+    float: right;
+    list-style: none;
+    height: 100%;
+    padding-right: 80px;
+    li {
+      display: inline-block;
+      padding: 15px 10px;
+      height: 100%;
+
+
+      a {
+        text-decoration: none;
+        color: grey;
+        font-size: 14px;
+        &:hover {
+          color: white;
+          text-decoration: underline;
+        }
+        i {
+          color: $iconColor;
+          font-size: 20px;
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+.header-bottom {
+  background-color: $backgroundHeader;
+  height: calc($headerHeight - $headerTopHeight) ;
+  ul {
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    li {
+      display: inline-block;
+      padding: 15px 10px;
+      height: 100%;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        &:hover {
+          background: white;
+          color: black;
+        }
+        i {
+          color: grey;
+          font-size: 20px;
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+
+      }
+    }
+  }
+
+}
