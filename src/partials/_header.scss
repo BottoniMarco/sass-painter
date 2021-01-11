@@ -38,14 +38,17 @@ header {
 
 .header-bottom {
   background-color: $backgroundHeader;
-  height: calc($headerHeight - $headerTopHeight) ;
+
+
   ul {
     list-style: none;
     height: 100%;
     text-align: center;
+    line-height: 30px;
+
     li {
       display: inline-block;
-      padding: 0px 10px;
+      padding: 0px 30px;
       height: 100%;
 
       a {
@@ -64,6 +67,11 @@ header {
           vertical-align: middle;
         }
       }
+
     }
+
+  }
+  #logo {
+    font-size: 40px;
   }
 }
