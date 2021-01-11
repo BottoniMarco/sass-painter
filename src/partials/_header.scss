@@ -38,8 +38,6 @@ header {
 
 .header-bottom {
   background-color: $backgroundHeader;
-
-
   ul {
     list-style: none;
     height: 100%;
@@ -67,10 +65,9 @@ header {
           vertical-align: middle;
         }
       }
-
     }
-
   }
+  
   #logo {
     font-size: 40px;
   }

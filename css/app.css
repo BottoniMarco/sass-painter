@@ -5,7 +5,7 @@
 }
 
 header {
-  height: 50px;
+  height: 110px;
   background-color: #040404;
 }
 
@@ -74,6 +74,28 @@ header {
   font-size: 40px;
 }
 
-body {
-  background: lime;
+main {
+  width: 100%;
+}
+main .fifth-block {
+  height: 100%;
+  width: 100%;
+}
+main .fifth-block .img1 {
+  height: 400px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+main .fifth-block .text {
+  height: 600px;
+  background: white;
+}
+main .fifth-block .img2 {
+  height: 400px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

@@ -1,3 +1,24 @@
-body{
-  background: $backgroundTest;
+main {
+  width: 100%;
+  .fifth-block {
+    height: 100%;
+    width: 100%;
+
+    .img1 {
+      height: 400px;
+      background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg');
+      @include backgroundImages;
+    }
+
+    .text {
+      height: 600px;
+      background: white;
+    }
+
+    .img2 {
+      height: 400px;
+      background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg');
+      @include backgroundImages;
+    }
+  }
 }
